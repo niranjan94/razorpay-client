@@ -1,0 +1,23 @@
+{
+  "name": "niranjan94/razorpay-client",
+  "description": "A PHP Client for the Razorpay HTTP API",
+  "type": "library",
+  "license": "Apache License 2.0",
+  "authors": [
+    {
+      "name": "Niranjan Rajendran",
+      "email": "niranjan94@yahoo.com"
+    }
+  ],
+  "require": {
+    "mashape/unirest-php": "2.*"
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "RazorpayClient": "src/"
+    }
+  }
+}
