@@ -20,4 +20,15 @@ class RazorpayClient {
         $this->secret = $secret;
         Request::auth($this->key, $this->secret);
     }
+    
+    /**
+     * @param string $name
+     * @return mixed
+     */
+    function __get($name) {
+        $className = __NAMESPACE__.'\\'.ucwords($name)."Handler";
+        $entity = new $className();
+        return $entity;
+    }
+
 }

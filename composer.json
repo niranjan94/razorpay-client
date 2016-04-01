@@ -3,6 +3,7 @@
   "description": "A PHP Client for the Razorpay HTTP API",
   "type": "library",
   "license": "Apache License 2.0",
+  "version": "1.0.0-dev",
   "authors": [
     {
       "name": "Niranjan Rajendran",
@@ -17,7 +18,7 @@
   },
   "autoload": {
     "psr-4": {
-      "RazorpayClient": "src/"
+      "RazorpayClient\\": "src/"
     }
   }
 }
